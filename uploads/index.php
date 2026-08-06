@@ -18,7 +18,9 @@ $conn,
 <?php while($row=mysqli_fetch_assoc($result)){ ?>
 
 
-<div class="card">
+<div class="card"><a href="like.php?id=<?= $row['id']; ?>">
+❤️ Like
+</a>
 
 
 <h2>
