@@ -1,1 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+}
 
+header {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #120022, #8000ff);
+}
+
+header h1 {
+    font-size: 45px;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    background: #111;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a855ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #b84cff;
+}
+
+button {
+    background: #8000ff;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b84cff;
+}
+
+.post {
+    padding: 30px;
+}
+
+.card {
+    background: #151515;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #8000ff;
+}
