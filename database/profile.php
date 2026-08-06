@@ -77,9 +77,13 @@ Official Creator of IZZ IDGAF CENTER
 
 <a href="follow.php">
 
+<a href="follow.php">
+
 <button>
-Follow
+Follow IZZ IDGAF
 </button>
+
+</a>
 
 </a>
 
@@ -103,3 +107,24 @@ Followers:
 </body>
 
 </html>
+
+<?php
+
+include "includes/db.php";
+
+
+$count=mysqli_query(
+
+$conn,
+
+"SELECT * FROM follows"
+
+);
+
+
+$total=mysqli_num_rows($count);
+
+
+echo "Followers: ".$total;
+
+?>
