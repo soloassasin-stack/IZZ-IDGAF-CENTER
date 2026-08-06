@@ -72,3 +72,15 @@ post_id INT,
 user_id INT
 
 );
+
+CREATE TABLE follows (
+
+id INT AUTO_INCREMENT PRIMARY KEY,
+
+creator VARCHAR(100),
+
+follower VARCHAR(100),
+
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+);
