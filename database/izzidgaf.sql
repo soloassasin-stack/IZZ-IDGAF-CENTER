@@ -62,3 +62,13 @@ user_id INT,
 follower_id INT
 
 );
+
+CREATE TABLE likes (
+
+id INT AUTO_INCREMENT PRIMARY KEY,
+
+post_id INT,
+
+user_id INT
+
+);
