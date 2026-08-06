@@ -43,3 +43,25 @@ width="300"
 
 
 <?php } ?>
+
+<form action="comment.php" method="POST">
+
+<input 
+type="hidden"
+name="post_id"
+value="<?= $row['id']; ?>"
+>
+
+
+<input 
+name="comment"
+placeholder="Write comment..."
+>
+
+
+<button>
+Comment
+</button>
+
+
+</form>
